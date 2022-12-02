@@ -32,7 +32,54 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 16px;
+  margin-bottom: 50px;
+  padding: 0 8vw;
+}
+
+
+.container_place {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container_place div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 140px;
+  padding-right: 5px;
+}
+
+
+svg {
+  margin-top: 1.3rem;
+  cursor: pointer;
+}
+
+.middle {
+  flex: 1 1 auto;
+}
+
+.container_place button {
+  height: 20px;
+  align-content: center;
+}
+
+.error {
+  color: red;
 }

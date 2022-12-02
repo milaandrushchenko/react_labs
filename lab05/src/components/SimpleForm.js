@@ -42,7 +42,6 @@ export default function SimpleForm() {
         let pattern = /(^[a-zA-Z0-9_.]+[@]{1}[a-z0-9]+[\.][a-z]+$)/mg;
         return pattern.test(email) || email.length === 0;
     }
-    console.log(!isEmailValid || !isTopicValid);
 
     return (
         <Container component="main" maxWidth="xs">
